@@ -1,0 +1,173 @@
+body {
+	font-family: 'Times New Roman', sans-serif;
+	padding: 0;
+	margin:0;
+	font-size: 14px;
+}
+
+.container {
+	width: 840px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	line-height: 1.45em;
+	color: #8d8d8d;
+}
+
+a {
+	font-family: 'Tahoma', sans-serif;
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	margin: 0 ;
+	padding: 0;
+}
+
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+.btn{
+	width: 115px;
+	border-radius: 1px;
+	padding: 7px 0;
+	background-color: #da4137;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+}
+
+.btn:hover {
+	box-shadow: 0 1px 10px rgba(0,0,0,0.8);
+}
+
+.btn:active {
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Tahoma', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #000;
+	line-height: 1.3em;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.align-center{
+	align-items: center;
+}
+
+/*---header---*/
+
+.header{
+	padding: 12px 0 0 0;
+}
+
+.main-logo{
+	flex-direction: column;
+	color: #000;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.main-logo__big{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.main-nav{
+	padding-bottom: 15px;
+}
+
+.main-nav__list{
+	margin-left: auto;
+}
+
+.main-nav__element{
+	margin-right: 30px;
+}
+
+.main-nav__element:last-child{
+	margin-right: 0;
+}
+
+.main-nav__link{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+
+.main-info{
+	background-color: #f0f0f0;
+	padding: 19px 24px;
+}
+
+.main-info__description{
+	width: 385px;
+}
+
+.main-info__title{
+	font-size: 21px;
+}
+
+.main-info__text{
+	margin: 10px 0;
+}
+
+/*---strategy---*/
+
+.strategy{
+	padding-top: 20px
+}
+
+.title{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.efficiency-list{
+	padding: 0 9px;
+	margin-top: 27px;
+}
+
+.efficiency-list__text{
+	color: #000;
+	font-style: italic;
+	margin-left: 15px;
+	flex-direction: column;
+}
+
+	/*---content---*/
+
+.content{
+	padding-top: 35px;
+}
+
+.information, .marketing, .articles{
+	margin-bottom: 13px;
+}
